@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T05:20:32.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.20" etag="scV59o9gwKNabfs9gWIA" type="github"><diagram name="Page-1" id="W1_VMvQIdvo7o9Jsz42U">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-18T05:59:38.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="yTSBqZWV66VlqJsxvAJG" version="20.8.20" type="github">
+  <diagram name="Page-1" id="W1_VMvQIdvo7o9Jsz42U">
+    <mxGraphModel dx="1909" dy="2156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CFGsSXqs08x4cHAheJuz-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-20" width="770" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFGsSXqs08x4cHAheJuz-2" target="CFGsSXqs08x4cHAheJuz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-2" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFGsSXqs08x4cHAheJuz-4" target="CFGsSXqs08x4cHAheJuz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-4" value="Verifikas user" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CFGsSXqs08x4cHAheJuz-6" target="CFGsSXqs08x4cHAheJuz-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="580" />
+              <mxPoint x="530" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFGsSXqs08x4cHAheJuz-6" target="CFGsSXqs08x4cHAheJuz-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="580" />
+              <mxPoint x="355" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CFGsSXqs08x4cHAheJuz-6" target="CFGsSXqs08x4cHAheJuz-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="580" />
+              <mxPoint x="200" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.588;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CFGsSXqs08x4cHAheJuz-6" target="CFGsSXqs08x4cHAheJuz-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="580" />
+              <mxPoint x="702" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-6" value="Dashboard" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="490" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CFGsSXqs08x4cHAheJuz-8" target="CFGsSXqs08x4cHAheJuz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-8" value="Input Username&lt;br&gt;&amp;nbsp;dan Password" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-12" value="Data Pegawai" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-13" value="Data Surat &lt;br&gt;Perjalanan Dinas" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="450" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-14" value="Data Surat &lt;br&gt;Perintah Dinas" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="620" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-15" value="Data Nota &lt;br&gt;Permintaan &lt;br&gt;Perjalanan Dinas" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="285" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CFGsSXqs08x4cHAheJuz-13" target="CFGsSXqs08x4cHAheJuz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CFGsSXqs08x4cHAheJuz-19" target="CFGsSXqs08x4cHAheJuz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CFGsSXqs08x4cHAheJuz-19" value="Login" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="110" width="130" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
