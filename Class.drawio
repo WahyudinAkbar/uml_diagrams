@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T02:48:04.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XEhQfTSGnWPWz8wKaJoW" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-22T02:49:02.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lpiN82o55p_paOzKklds" version="20.8.20" type="github">
   <diagram id="UmnSwsHBt0RntYIwVFSD" name="Page-1">
-    <mxGraphModel dx="1500" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1400" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6sNXYuHfo27tlo8KxHGq-7" value="Users" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="360" y="290" width="160" height="250" as="geometry" />
+          <mxGeometry x="310" y="290" width="160" height="250" as="geometry" />
         </mxCell>
         <mxCell id="6sNXYuHfo27tlo8KxHGq-8" value="Id users&#xa;email : String &#xa;username : String&#xa;password : String&#xa;nama : String&#xa;nip : String&#xa;golongan : String&#xa;jabatan : String&#xa;bidang : String&#xa;roles : String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6sNXYuHfo27tlo8KxHGq-7" vertex="1">
           <mxGeometry y="26" width="160" height="164" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry y="158" width="180" height="52" as="geometry" />
         </mxCell>
         <mxCell id="6sNXYuHfo27tlo8KxHGq-18" value="Sppd" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="690" y="185" width="180" height="220" as="geometry" />
+          <mxGeometry x="590" y="150" width="180" height="220" as="geometry" />
         </mxCell>
         <mxCell id="6sNXYuHfo27tlo8KxHGq-19" value="Id_sppd&#xa;nama : String&#xa;no_surat_sppd : String&#xa;maksud_tujuan : String&#xa;tempat_tujuan : String&#xa;tanggal_berangkat : timestamp&#xa;tanggal_kembali : timestamp&#xa;alat_transportasi : String&#xa;keterangan_lain : String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6sNXYuHfo27tlo8KxHGq-18" vertex="1">
           <mxGeometry y="26" width="180" height="134" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UctNJG47mYVbgRwblJmR-5" value="nota_dinas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="-20" width="180" height="240" as="geometry" />
+          <mxGeometry x="270" y="-10" width="180" height="240" as="geometry" />
         </mxCell>
         <mxCell id="UctNJG47mYVbgRwblJmR-6" value="Id_nota&#xa;nama : String&#xa;no_surat : String&#xa;maksud_tujuan : String&#xa;tempat_tujuan : String&#xa;dasar : String&#xa;perihal : String&#xa;tanggal_berangkat : timestamp&#xa;tanggal_kembali : timestamp&#xa;verifikasi : boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UctNJG47mYVbgRwblJmR-5">
           <mxGeometry y="26" width="180" height="154" as="geometry" />
@@ -58,16 +58,8 @@
         <mxCell id="UctNJG47mYVbgRwblJmR-8" value="tambah_data ()&#xa;update_data ()&#xa;delete_data ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UctNJG47mYVbgRwblJmR-5">
           <mxGeometry y="188" width="180" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="UctNJG47mYVbgRwblJmR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.296;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="UctNJG47mYVbgRwblJmR-9" target="6sNXYuHfo27tlo8KxHGq-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="200" y="460" />
-              <mxPoint x="360" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="UctNJG47mYVbgRwblJmR-9" value="golongan" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="570" width="160" height="78" as="geometry" />
+          <mxGeometry x="40" y="502" width="160" height="78" as="geometry" />
         </mxCell>
         <mxCell id="UctNJG47mYVbgRwblJmR-10" value="id_golongan&#xa;nama_golongan String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UctNJG47mYVbgRwblJmR-9">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
@@ -79,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UctNJG47mYVbgRwblJmR-13" value="bidang" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="590" width="160" height="78" as="geometry" />
+          <mxGeometry x="510" y="540" width="160" height="78" as="geometry" />
         </mxCell>
         <mxCell id="UctNJG47mYVbgRwblJmR-14" value="id_bidang&#xa;nama_bidang : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UctNJG47mYVbgRwblJmR-13">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
@@ -88,6 +80,9 @@
           <mxGeometry y="70" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="UctNJG47mYVbgRwblJmR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6sNXYuHfo27tlo8KxHGq-13" target="6sNXYuHfo27tlo8KxHGq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UctNJG47mYVbgRwblJmR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.021;entryY=0.868;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="UctNJG47mYVbgRwblJmR-10" target="6sNXYuHfo27tlo8KxHGq-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
